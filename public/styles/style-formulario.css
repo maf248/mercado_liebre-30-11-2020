@@ -1,0 +1,77 @@
+
+.principal h2 {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.loginForm, .registerForm {
+    padding: 50px;
+    margin-top: 30px;
+}
+.campos {
+    margin: 5px;
+    }
+.campos:focus {
+    transform: scale(1.2);
+}
+.principal h1 {
+    font-size: 22px;
+    color:  #03264C;
+    text-decoration: underline overline;
+    line-height: 40px;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #03264C;
+    background-color: #eac926;
+    border-radius: 50px;
+}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #03264C;
+    background-color: #eac926;
+    border-radius: 50px;
+}
+.perfil-usuario {
+    display: flex;
+    flex-direction: row;
+}
+.perfil-usuario input{
+    width: 50%;
+    height: 14px;
+}
+.intereses-usuario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.intereses-usuario label {
+    width: 90%;
+    margin: 10px 0px;
+}
+.intereses-usuario input {
+    margin: 10px 5px;
+}
+input.campos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+}
+input.campos[target=enviar] {
+    color: white;
+    background-color: #0044AA;
+}
+input.campos[target=enviar]:hover {
+    background-color: #0022AA;
+}
+input.campos[target=borrar] {
+    color: white;
+    background-color: #AA0044;
+}
+input.campos[target=borrar]:hover {
+    background-color: #CC1155;
+}
